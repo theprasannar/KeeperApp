@@ -35,6 +35,7 @@ if (process.env.NODE_ENV == 'production') {
     app.use(express.static(path.join("frontend/build")))
 }
 
-app.listen(process.env.PORT,()=>{
-    console.log('listening on http://localhost:3001')
+const port = process.env.PORT || 3001;
+app.listen(port, () => {
+    console.log(`Server started on port ${port}`);
 });

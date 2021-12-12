@@ -1,11 +1,9 @@
 {
   "name": "using-pre-built-react-components-completed",
   "version": "1.0.0",
+  "proxy": "http://localhost:3001",
   "description": "",
   "keywords": [],
-  "engines": {
-    "node": "14.17.0"
-  },
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.6.1",
